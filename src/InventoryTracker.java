@@ -12,5 +12,8 @@ public class InventoryTracker {
     public void checkStockLevel() {
     System.out.println("Checking stock levels...");
 }
+    public void alertLowStock() {
+    System.out.println("Low stock alert triggered!");
+}
     
 }
